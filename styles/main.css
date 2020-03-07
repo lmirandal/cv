@@ -1523,7 +1523,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
+  background-color: #002c54;/*40a249;*/
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1552,8 +1552,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary.btn-simple:hover, .btn-primary.btn-simple:focus, .btn-primary.btn-simple:active {
   background-color: transparent;
-  color: #40a249;
-  border-color: #40a249;
+  color: #002c54;/*40a249;*/
+  border-color: #002c54;/*40a249;*/
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -1564,7 +1564,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary.btn-link:hover, .btn-primary.btn-link:focus, .btn-primary.btn-link:active {
   background-color: transparent;
-  color: #40a249;
+  color: #002c54;/*40a249;*/
   text-decoration: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2602,13 +2602,29 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #16253d;/*378C3F;*/;
+  background: #16253d;/*378C3F;*/
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #16253d;/*378C3F;*/;
+  color: #16253d;/*378C3F;*/
 }
+
+/**/
+.progress-container.progress-pikachu .progress {
+  /*background: rgba(55, 140, 63, 0.4);*/
+  background: #16253d;
+}
+
+.progress-container.progress-pikachu .progress-bar {
+  background: #efb509;/*378C3F;*/
+}
+
+.progress-container.progress-pikachu .progress-value,
+.progress-container.progress-pikachu .progress-badge {
+  color: #efb509;/*378C3F;*/
+}
+/**/
 
 .progress-container.progress-info .progress {
   background: rgba(44, 168, 255, 0.3);
